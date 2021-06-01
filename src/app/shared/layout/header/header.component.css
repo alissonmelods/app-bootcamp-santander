@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.16), 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.23);
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+}
